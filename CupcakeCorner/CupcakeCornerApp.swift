@@ -2,7 +2,7 @@
 //  CupcakeCornerApp.swift
 //  CupcakeCorner
 //
-//  Created by Jonas Agnezi on 17/10/22.
+//  Created by agnezi.io on 17/10/22.
 //
 
 import SwiftUI

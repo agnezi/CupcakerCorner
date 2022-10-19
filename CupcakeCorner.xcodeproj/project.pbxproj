@@ -11,6 +11,10 @@
 		88A6EE9F28FE1F6800EB082E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6EE9E28FE1F6800EB082E /* ContentView.swift */; };
 		88A6EEA128FE1F6900EB082E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A6EEA028FE1F6900EB082E /* Assets.xcassets */; };
 		88A6EEA428FE1F6900EB082E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A6EEA328FE1F6900EB082E /* Preview Assets.xcassets */; };
+		88DF17BD28FF818200AB5E8E /* LearnAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DF17BC28FF818200AB5E8E /* LearnAsyncImage.swift */; };
+		88DF17BF28FF819900AB5E8E /* LearnUrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DF17BE28FF819900AB5E8E /* LearnUrlSession.swift */; };
+		88DF17C128FF84A100AB5E8E /* LenarValidatingAndDisablingForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DF17C028FF84A100AB5E8E /* LenarValidatingAndDisablingForms.swift */; };
+		88DF17C328FF8BA800AB5E8E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 88DF17C228FF8BA800AB5E8E /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		88A6EE9E28FE1F6800EB082E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		88A6EEA028FE1F6900EB082E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88A6EEA328FE1F6900EB082E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88DF17BC28FF818200AB5E8E /* LearnAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnAsyncImage.swift; sourceTree = "<group>"; };
+		88DF17BE28FF819900AB5E8E /* LearnUrlSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUrlSession.swift; sourceTree = "<group>"; };
+		88DF17C028FF84A100AB5E8E /* LenarValidatingAndDisablingForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenarValidatingAndDisablingForms.swift; sourceTree = "<group>"; };
+		88DF17C228FF8BA800AB5E8E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,7 @@
 		88A6EE9028FE1F6800EB082E = {
 			isa = PBXGroup;
 			children = (
+				88DF17C228FF8BA800AB5E8E /* .gitignore */,
 				88A6EE9B28FE1F6800EB082E /* CupcakeCorner */,
 				88A6EE9A28FE1F6800EB082E /* Products */,
 			);
@@ -51,6 +60,7 @@
 		88A6EE9B28FE1F6800EB082E /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				88DF17BB28FF817500AB5E8E /* Lessons */,
 				88A6EE9C28FE1F6800EB082E /* CupcakeCornerApp.swift */,
 				88A6EE9E28FE1F6800EB082E /* ContentView.swift */,
 				88A6EEA028FE1F6900EB082E /* Assets.xcassets */,
@@ -65,6 +75,16 @@
 				88A6EEA328FE1F6900EB082E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88DF17BB28FF817500AB5E8E /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				88DF17BC28FF818200AB5E8E /* LearnAsyncImage.swift */,
+				88DF17BE28FF819900AB5E8E /* LearnUrlSession.swift */,
+				88DF17C028FF84A100AB5E8E /* LenarValidatingAndDisablingForms.swift */,
+			);
+			path = Lessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A6EEA428FE1F6900EB082E /* Preview Assets.xcassets in Resources */,
+				88DF17C328FF8BA800AB5E8E /* .gitignore in Resources */,
 				88A6EEA128FE1F6900EB082E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A6EE9F28FE1F6800EB082E /* ContentView.swift in Sources */,
+				88DF17BF28FF819900AB5E8E /* LearnUrlSession.swift in Sources */,
+				88DF17C128FF84A100AB5E8E /* LenarValidatingAndDisablingForms.swift in Sources */,
+				88DF17BD28FF818200AB5E8E /* LearnAsyncImage.swift in Sources */,
 				88A6EE9D28FE1F6800EB082E /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
