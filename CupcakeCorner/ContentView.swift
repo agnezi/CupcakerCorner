@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CupcakeCorner
 //
-//  Created by agnezi.io on 17/10/22.
+//  Created by itsjagnezi on 17/10/22.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
 	var body: some View {
 		NavigationView {
 			Form {
-				
+			
 				Section {
 					Picker("Select your cupcake", selection: $order.type) {
 						ForEach(Order.types.indices) {

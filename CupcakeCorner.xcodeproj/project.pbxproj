@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88539D2D290210120037D977 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88539D2C290210120037D977 /* Feedback.swift */; };
+		88539D3329021F3F0037D977 /* Boing.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 88539D3229021F3F0037D977 /* Boing.ahap */; };
 		88A6EE9D28FE1F6800EB082E /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6EE9C28FE1F6800EB082E /* CupcakeCornerApp.swift */; };
 		88A6EE9F28FE1F6800EB082E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A6EE9E28FE1F6800EB082E /* ContentView.swift */; };
 		88A6EEA128FE1F6900EB082E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A6EEA028FE1F6900EB082E /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88539D2C290210120037D977 /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		88539D3229021F3F0037D977 /* Boing.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Boing.ahap; sourceTree = "<group>"; };
 		88A6EE9928FE1F6800EB082E /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A6EE9C28FE1F6800EB082E /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		88A6EE9E28FE1F6800EB082E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				88BFE7382900B34000C6A664 /* Order.swift */,
 				88BFE73A2900B4E900C6A664 /* AddressView.swift */,
 				88BFE73C2900B97700C6A664 /* CheckoutView.swift */,
+				88539D2C290210120037D977 /* Feedback.swift */,
+				88539D3229021F3F0037D977 /* Boing.ahap */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A6EEA428FE1F6900EB082E /* Preview Assets.xcassets in Resources */,
+				88539D3329021F3F0037D977 /* Boing.ahap in Resources */,
 				88DF17C328FF8BA800AB5E8E /* .gitignore in Resources */,
 				88A6EEA128FE1F6900EB082E /* Assets.xcassets in Resources */,
 			);
@@ -172,6 +179,7 @@
 			files = (
 				88A6EE9F28FE1F6800EB082E /* ContentView.swift in Sources */,
 				88BFE7372900B2AA00C6A664 /* LearnHowToEncodeAndDecodeWrappedProperties.swift in Sources */,
+				88539D2D290210120037D977 /* Feedback.swift in Sources */,
 				88DF17BF28FF819900AB5E8E /* LearnUrlSession.swift in Sources */,
 				88DF17C128FF84A100AB5E8E /* LenarValidatingAndDisablingForms.swift in Sources */,
 				88DF17BD28FF818200AB5E8E /* LearnAsyncImage.swift in Sources */,
